@@ -1,0 +1,44 @@
+[
+    {
+        "Full_name": "asif",
+        "User_name": "neloy",
+        "Email": "asifneloy22@gmail.com",
+        "Phone_number": "12345678912",
+        "Age": "2022-06-01",
+        "Password": "firsttry22",
+        "Confrim_password": "firsttry22",
+        "Gender": "Male",
+        "Nationality": "bangladeshi",
+        "Experience": "1",
+        "Driving License": "111111111111111",
+        "NID": "1111111111"
+    },
+    {
+        "Full_name": "asif",
+        "User_name": "safi",
+        "Email": "asifneloy22@gmail.com",
+        "Phone_number": "12345678912",
+        "Age": "2022-07-06",
+        "Password": "123456789",
+        "Confrim_password": "123456789",
+        "Gender": "Male",
+        "Nationality": "bangladeshi",
+        "Experience": "3",
+        "Driving License": "111111111111111",
+        "NID": "1111111111"
+    },
+    {
+        "Full_name": "joheb",
+        "User_name": "raiyan",
+        "Email": "asif22@gmail.com",
+        "Phone_number": "01776670525",
+        "Age": "2022-06-23",
+        "Password": "123456789",
+        "Confrim_password": "123456789",
+        "Gender": "Male",
+        "Nationality": "Indian",
+        "Experience": "2",
+        "Driving License": "111111111111111",
+        "NID": "1111111111"
+    }
+]

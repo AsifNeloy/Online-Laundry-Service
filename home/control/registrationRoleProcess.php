@@ -4,8 +4,8 @@
         header("Location: ../../customer/view/customer_registration.php");
     }
     //regisration role selection for Rider
-    if(isset($_POST["c_role"])){
-        
+    if(isset($_POST["r_role"])){
+        header("Location: ../../deliveryman/view/registration.php");
     }
     //regisration role selection for Laundry
     if(isset($_POST["c_role"])){

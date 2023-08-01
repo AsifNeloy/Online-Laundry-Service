@@ -22,10 +22,18 @@ include("../control/CustomerLogin_Control.php");
     <br>
     <br>
     <br>
-    <br>
+    
 <table>
-    <tr><td><b>Username</td> 
-    <td><input type="text" name="uname" placeholder="Enter username or email"></td>
+<tr><td><b>Select User Role &nbsp; </td>
+       <td><select name="role" id="role">
+    <option value="customer">Customer</option>
+    <option value="rider">Rider</option>
+    <option value="laundry">Laundry</option>
+    <option value="admin">Admin</option>
+  </select></td>
+  <tr></tr>
+    <tr><td><br><b>Username</td> 
+    <td><br><input type="text" name="uname" placeholder="Enter username or email"></td>
     <td> <?php
             echo $usernameError;
        ?>
@@ -38,7 +46,7 @@ include("../control/CustomerLogin_Control.php");
        </td></tr>
 </table>
 <br>
-<input type="submit" name="submitlogin" value="Login">
+<input type="submit" name="submitlogin" value="Login">&nbsp;
 <input type="Reset" name="Reset" value="Reset"><br>
 <p>Don't Have an Account? <input type="submit" name="register" value="Register Now"> </p>
 </form>
